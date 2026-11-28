@@ -3,11 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Draft Page</title>
 </head>
 <body>
     <h1>Draft Page</h1>
 <hr>
+
+<h2> Table </h2>
+
+<table border="1">
+  <tr>
+    <th colspan="2">Merged 2 Columns</th>
+    <th>Col 3</th>
+  </tr>
+  <tr>
+    <td rowspan="2">Merged 2 Rows</td>
+    <td>Row 2, Col 2</td>
+    <td>Row 2, Col 3</td>
+  </tr>
+  <tr>
+    <!-- Notice there are only 2 <td> tags here because Col 1 was eaten by rowspan above -->
+    <td>Row 3, Col 2</td>
+    <td>Row 3, Col 3</td>
+  </tr>
+</table>
 
 </body>
 </html>
